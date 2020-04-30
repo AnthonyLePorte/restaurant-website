@@ -1,0 +1,95 @@
+/* STEP 2 */
+body 
+{ 
+background-color: #f2efea;
+}
+
+/* STEP 4a*/
+h1, h2, h3, h4, h5, h6 
+{
+background-color: #d7e1f2;
+font-weight: bold;
+color: #1f2123;
+}
+
+/* STEP 4b*/
+.dish 
+{
+background-color: #F7B956;
+padding: 10px;
+margin: 10px;
+border-style: dashed;
+border-width: 2px;
+border-color: #16A085;
+}
+
+/* STEP 4c*/
+header, footer
+{
+background-color: #bc8e43
+}
+
+/* STEP 4d*/
+footer 
+{
+font-size: .5rem;
+}
+
+/* STEP 4e*/
+nav 
+{
+background-color: #474644;
+}
+nav a:link
+{
+color: white;
+}
+
+/*STEP 4f*/
+nav li 
+{
+list-style: none;
+}
+
+/*STEP 4g*/
+.dish > h1, h2, h3, h4, h5, h6 
+{
+font-style: italic;
+}
+
+/* STEP 4h*/
+.dish 
+{
+border-radius: 25px;
+}
+
+/*STEP 4i*/
+.locations li
+{
+list-style-image:url("../images/arrow.png");
+}
+
+/*STEP 4j*/
+a:visited 
+{ 
+color: green;
+}
+
+/*STEP 4k*/
+nav a:visited
+{
+color: orange;
+}
+
+/*STEP 4L*/
+.dish details
+{ 
+color: red;
+}
+
+/*STEP 4m*/
+.underConstruction
+{
+color: orange;
+font-style: italic;
+}
